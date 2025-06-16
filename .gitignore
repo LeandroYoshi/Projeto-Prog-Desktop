@@ -1,0 +1,12 @@
+# Ignorar pastas e arquivos gerados automaticamente
+build/
+dist/
+nbbuild/
+nbdist/
+*.class
+*.jar
+*.log
+
+# Ignorar configurações da IDE
+*.iml
+.idea/

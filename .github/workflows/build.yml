@@ -36,6 +36,9 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
 
+    - name: Criar diretório de saída
+      run: mkdir -p out
+
     - name: Compile Java files
       run: |
         find . -name "*.java" > sources.txt
